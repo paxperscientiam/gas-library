@@ -3,7 +3,7 @@
 // MIT License
 
 
-function ParseUri(input, options = {}) {
+function ParseUri(input, options) {
     if (!(this instanceof ParseUri)) {
         return new ParseUri(input, options = {});
     }
@@ -32,5 +32,4 @@ function ParseUri(input, options = {}) {
         if ($1) uri[o.q.name][$1] = $2;
     });
     this.uri = uri;
-    this.bitch = "SHIT";
 }
