@@ -1,0 +1,9 @@
+{
+  "configurations": [
+    {
+      "name": "GAS project",
+        "type": "chrome",
+        "root": "code"
+    }
+  ]
+}
