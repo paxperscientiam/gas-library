@@ -34,7 +34,3 @@ function ParseUri(input, options = {}) {
     this.uri = uri;
     this.bitch = "SHIT";
 }
-
-var z = new ParseUri("https://google.com", {})
-
-z.bitch
